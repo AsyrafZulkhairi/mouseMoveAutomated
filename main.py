@@ -16,7 +16,7 @@ while True:
     pyautogui.click()
     if random.randint(0,1):
         time.sleep(0.2)
-        pyautogui.click
+        pyautogui.click()
         totalClick += 1
     idle = random.randrange(3,5)
     print("x:", xRel, "  y:", 50, "  idle:", idle, "sec", "  totalClick:", totalClick, "  moveTime:", moveTime, "  returnTime:", returnTime)
